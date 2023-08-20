@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #003366;
+    font-size: 1.1vw;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    padding: 0 1vw;
+  }
+  
+  .navbar a {
+    color: #F6F6F6; /* This will make all links off-white */
+    text-decoration: none; /* This will remove underline */
+  }
+  
+  /* Style for active NavLink */
+  .navbar a.active {
+    color: #FF6600;
+  }
+  
+  /* Style for NavLink hover effect */
+  .navbar a:hover {
+    color: #FF6600;
+  }
+  
